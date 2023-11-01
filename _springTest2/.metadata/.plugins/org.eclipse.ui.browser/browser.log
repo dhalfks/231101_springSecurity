@@ -1,0 +1,11 @@
+
+10월 25, 2023 17:01:48.614 NEW SESSION
+10월 25, 2023 17:01:48.614 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 25, 2023 17:01:55.767 [12524:9204:1025/170155.767:ERROR:data_type_manager_impl.cc(36)] Passwords cryptographer error was encountered: 
+10월 25, 2023 17:14:42.641 [12524:8728:1025/171442.641:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+10월 25, 2023 17:20:10.715 [12524:9204:1025/172010.715:ERROR:device_event_log_impl.cc(225)] [17:20:10.714] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+10월 25, 2023 17:57:45.146 [12524:9204:1025/175745.146:ERROR:sharing_service.cc(250)] Device un-registration failed with fatal error
+10월 25, 2023 18:03:37.370 [12524:9204:1025/180337.369:ERROR:device_event_log_impl.cc(225)] [18:03:37.370] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.
+10월 25, 2023 18:03:57.39 [12524:9204:1025/180357.039:ERROR:data_type_manager_impl.cc(36)] Passwords cryptographer error was encountered: 
+10월 25, 2023 18:57:14.542 [12524:9204:1025/185714.542:ERROR:device_event_log_impl.cc(225)] [18:57:14.540] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+10월 25, 2023 20:33:05.400 [12524:9204:1025/203305.400:ERROR:device_event_log_impl.cc(225)] [20:33:05.399] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)

@@ -1,0 +1,7 @@
+package com.myweb.www.security;
+
+import org.springframework.security.core.userdetails.User;
+
+public class AuthMember extends User{
+
+}

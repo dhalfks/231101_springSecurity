@@ -1,0 +1,52 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<jsp:include page="../common/header.jsp" />
+<jsp:include page="../common/nav.jsp" />
+
+<div class="container text-center">
+<div class="row">
+
+<div class="col">
+<form action="/member/modify" method="post" id="modifyForm">
+<input type="hidden" name="email" value="${mvo.email }">
+	<div class="card" style="width: 18rem;">
+	  <img src="/resources/image/dog1.jpg" class="card-img-top" alt="...">
+	  <div class="card-body">
+	    <div class="form-floating mb-3">
+		  <input type="text" class="form-control" name ="nickName" id="floatingInput" value="${mvo.nickName }">
+		  <label for="floatingInput">Nick_Name</label>
+		</div>
+		<div class="form-floating">
+		  <input type="password" class="form-control" name ="pwd" id="floatingPassword" placeholder="Password">
+		  <label for="floatingPassword">Password</label>
+		</div>
+	    <p class="card-text">${mvo.email } </p>
+		   <p>( <c:forEach items="${mvo.authList }" var="authList">
+		     ${authList.auth }  
+		    </c:forEach> )</p>
+	    <a href="" class="btn btn-primary" id="modBtn">Modify</a>
+	    <a href="/member/remove?email=${mvo.email }" class="btn btn-primary">delete</a>
+	  </div>
+	</div>
+</form>
+</div>
+
+</div>
+</div>
+<jsp:include page="../common/footer.jsp" />
+<script type="text/javascript">
+document.getElementById('modBtn').addEventListener('click',(e)=>{
+	e.preventDefault();
+	document.getElementById('modifyForm').submit();
+});
+</script>
+</body>
+</html>

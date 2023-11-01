@@ -1,0 +1,15 @@
+package com.myweb.www.exception;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.servlet.NoHandlerFoundException;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+@ControllerAdvice
+public class CommonExceptionAdvice {
+
+	public String handler404(NoHandlerFoundException ex) {
+		
+	}
+}
